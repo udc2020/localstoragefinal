@@ -1,0 +1,152 @@
+/*== Local storage javascript by ultrasdzcoder ==*/
+:root{
+    --primary:rgb(15, 204, 62);
+}
+
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.box-shadow{
+    box-shadow: 0 1px 6px 6px rgba(0, 0, 0, 0.212) ;
+}
+button{
+    background:none;
+    border: none;
+    color: inherit;
+}
+h3{
+    padding: 1em;
+}
+.space-between{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.container,section{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.appbar{
+    color: white;
+    min-width: 100%;
+    height: 70px;
+    background-color: var(--primary); 
+    
+}
+.appbar .material-icons{
+    font-size: 2.5rem;
+}
+.title h1{
+    padding-left: 5px;
+    align-self: center;
+    font-size: 1.75rem;
+    align-self: flex-end;
+}
+.wrapper{
+    width: 100%;
+    margin-top: 2em;
+    border: .5px solid rgba(71, 71, 71, 0.205);
+    padding: 5em;
+    text-align: center;
+}
+.primary{
+    background-color: var(--primary);
+}
+.btn{
+    padding: 1em 1.5em;
+    margin: 1em;
+    color: azure;
+    text-transform: uppercase;
+    box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.212) ;
+}
+.btn:hover{
+    opacity: 0.6;
+    transition:opacity 1s ease;
+}
+.btn-out{
+    outline: 2px solid var(--primary) ;
+    background: none;
+    color:var(--primary) ;
+}
+.btn-out:hover{
+    background:var(--primary) ;
+    color:rgb(255, 255, 255) ;
+}
+.btn-dis{
+    opacity: 0.4;
+    background-color: var(--primary);
+}
+.btn-dis:hover{
+    opacity: 0.4;
+}
+.alert{
+    border-radius: 7px;
+    color: var(--primary);
+    padding: 1.5em;
+    text-align: left;
+    color: white;
+}
+.progress{
+    height: 30px;
+    background-color: rgba(187, 187, 187, 0.226);
+    vertical-align: middle;
+}
+.progress .primary{
+    height: 100%;
+    width: 50%;
+    background-color: var(--primary);
+    text-align: center;
+    padding: 5px;
+    
+}
+.pagenation{
+    display: flex;
+    justify-content: center;
+    margin: 0!important;
+}
+.page{
+   padding: 1em 1.5em;
+   border: .5px solid rgba(68, 68, 68, 0.226);
+   background-color: white;
+   transition: all 0.4s ease;
+}
+.page:hover{
+    background-color: rgba(78, 74, 74, 0.226);
+
+}
+.active,.active:hover {
+    background-color: var(--primary);
+    color: white;
+}
+
+.color-plate{
+    height: 150px;
+    width: 25px;
+    position: fixed;
+    top: 50%;
+    right: 0%;
+    z-index: 1000;
+    margin: 30px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.color{
+    width: 25px;
+    height: 25px;
+}
+.red{
+    background-color: #B71C1C ;
+}
+.orange{
+    background-color:#EF6C00 ;
+}
+.purple{
+    background-color:#6200EA  ;
+}
+.blue{
+    background-color: #01579B;
+}
